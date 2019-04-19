@@ -1,0 +1,22 @@
+.App {
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  .slider{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 50vh;
+    margin: auto;
+    .sliderDisplay{
+      border: 2px solid black;
+      border-radius: 5px;
+      box-shadow: 3px 5px 10px darkgray;
+      padding: 3em;
+      font-size: 3em;
+    }
+  }
+}

@@ -1,8 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import App from './Components/App';
 import * as serviceWorker from './serviceWorker';
+import DBService from './Services/DBService';
+
+DBService.initDabatase();
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
